@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pf</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+
+  <body>
+    <header class="header">
+      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+        <span><%= image_tag "helo.png", class: "navbar-brand" %></span>
+        <nav class="my-2 my-md-0 mr-md-3">
+           <ul>
+               <li><%= link_to "Home", "#", class:"p-2 text-dark"%></li>
+               <li><%= link_to "About", "#", class:"p-2 text-dark"%></li>
+               <li><%= link_to "Menu", "#", class:"p-2 text-dark" %></li>
+               <li><%= link_to "Access", "#", class:"p-2 text-dark" %></li>
+               <li><%= link_to "NEWs", "#", class:"p-2 text-dark"%></li>
+               <li><%= link_to "Recruit", "#", class:"p-2 text-dark"%></li>
+           </ul>
+        </nav>
+      </div>  
+    </header>
+    <footer class="footer" >
+      <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm fixed-bottom">
+				<span><%= image_tag "helo.png", class: "navbar-brand" %>
+				 <small class="d-block mb-3 text-muted">© 2020</small>
+				</span>
+			  <nav class="my-2 my-md-0 mr-md-3">
+         <ul>
+             <li><%= link_to "Home", "#", class:"p-2 text-dark"%></li>
+             <li><%= link_to "About", "#", class:"p-2 text-dark"%></li>
+             <li><%= link_to "Menu", "#", class:"p-2 text-dark" %></li>
+             <li><%= link_to "Access", "#", class:"p-2 text-dark" %></li>
+             <li><%= link_to "NEWs", "#", class:"p-2 text-dark"%></li>
+             <li><%= link_to "Recruit", "#", class:"p-2 text-dark"%></li>
+         </ul>
+        </nav>
+        <div class="address">
+         <span><%= image_tag "helo.png", class: "navbar-brand" %></span>
+          <p>〒480-0146<br>
+             愛知県丹羽郡大口町余野3-103 メゾンミズノ101 <br>
+             TEL 0587-96-9086<br>
+          </p>
+        </div>
+      </div>  
+    </footer>  
+    <%= yield %>
+  </body>
+</html>
