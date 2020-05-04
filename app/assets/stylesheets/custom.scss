@@ -1,6 +1,4 @@
 
-
-
 img {
   width: 20%;
   vertical-align: bottom;
@@ -12,20 +10,6 @@ ul,li,dl,dt,dd {
   list-style: none;
 }
 
-
-section {
-  margin-bottom: 120px;
-}
-
-.content-wrapper {
-   width: 1400px;
-   margin: 0 auto;
- }
- 
-
-.header {
-   width: 100%;
-}
 
 .header-nav {
    display: flex;
@@ -46,6 +30,7 @@ section {
 
 .footer {
    width: 100%;
+   
 }
 
 .footer-nav {
@@ -63,4 +48,18 @@ section {
 
 .footer nav ul li {
    margin-right: 50px;
+}
+
+.navbar-toggler {
+   background-color: #e8b51a87;
+}  
+.top-hero-wrapper{
+  width: 100vw;
+  height: 85vh;
+  background-image: url('34875.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #464646;
 }
