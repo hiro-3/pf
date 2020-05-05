@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  root 'toppeges#new'
+  root 'toppeges#index'
 end
