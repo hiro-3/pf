@@ -1,5 +1,6 @@
 body{
- background: url("stone_001.jpg");    
+ background: url("58.png");
+ background-repeat:round;
 }
 .navbar-brand img {
   width: 20%;
@@ -9,7 +10,7 @@ body{
 .navbar-img.img-fluid{
     height: 400px;
     width: 100%;
-    border: outset 20px #ab5f47;
+    border: outset 20px #ab715d;
 }
 
 ul,li,dl,dt,dd {
@@ -78,7 +79,7 @@ ul,li,dl,dt,dd {
   text-shadow: 2px 2px 0px #0a0a0a;
   padding-top: 100px;
   padding-left: 400px;
-  border: outset 20px #ab5f47;
+  border: outset 20px #ab715d;
 }
 .card-phote.img-fluid {
     max-width: 60%;
