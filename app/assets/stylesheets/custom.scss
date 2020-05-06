@@ -1,16 +1,18 @@
 body{
  background-image: image-url("stone_001.jpg");
- background-repeat:round;
+ background-repeat: no-repeat;
 }
+
 .navbar-brand img {
   width: 20%;
   vertical-align: bottom;
 }
 
 .navbar-img.img-fluid{
-    height: 400px;
+    height: 500px;
     width: 100%;
-    border: outset 20px #ab715d;
+    margin-top: 65px;
+    border: outset 20px #ffff;
 }
 
 ul,li,dl,dt,dd {
@@ -69,26 +71,36 @@ ul,li,dl,dt,dd {
 } 
 .card{
   margin-top: 100px;
+  border: outset 20px #ffff;
+  background-color: #ffffff59;
 }
 .card-img-overlay{
-  padding: 0;
   top: calc(0% - 0.5rem);
   text-align: center;
   font-weight: bold;
   color: #cebd2c;
   text-shadow: 2px 2px 0px #0a0a0a;
-  padding-top: 100px;
-  padding-left: 400px;
-  border: outset 20px #ab715d;
+  padding-top: 30px;
+  
+  
 }
 .card-phote.img-fluid {
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
-    padding-top: 200px;
+    background-color: white;
     
 }
 
 .text-white{
     font-size: 20px;
     text-shadow: 8px 7px 7px #101010;
+}
+
+.concept-row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;    
+  margin-left: -15px;
+  height: 600px;
+  
 }
