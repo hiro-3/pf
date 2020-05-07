@@ -3,6 +3,7 @@ body{
  background-repeat: no-repeat;
 }
 
+    
 .navbar-brand img {
   width: 20%;
   vertical-align: bottom;
@@ -69,26 +70,27 @@ ul,li,dl,dt,dd {
 .navbar-toggler {
    background-color: #e8b51a87;
 } 
-.card{
-  margin-top: 100px;
-  border: outset 20px #ffff;
-  background-color: #ffffff59;
-}
+
 .card-img-overlay{
-  top: calc(0% - 0.5rem);
-  text-align: center;
-  font-weight: bold;
-  color: #cebd2c;
-  text-shadow: 2px 2px 0px #0a0a0a;
   padding-top: 30px;
-  
-  
 }
+
+.concepts.text-md-center{
+    margin-top: 100px;
+    background-color: #0c0c0c94;
+}
+.concepts-row{
+  background-color: #0c0c0c94;
+  padding: 10px;
+}
+
+  
+  
 .card-phote.img-fluid {
-    max-width: 50%;
-    height: auto;
-    background-color: white;
-    
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+     border: outset 20px #ffff;
 }
 
 .text-white{
@@ -96,11 +98,27 @@ ul,li,dl,dt,dd {
     text-shadow: 8px 7px 7px #101010;
 }
 
-.concept-row{
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;    
-  margin-left: -15px;
-  height: 600px;
-  
+
+
+table {
+    width: 100%;
+    border-collapse: separate;
 }
+
+.menus-row{
+  background-color: #0c0c0c94;
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.row.accesses{
+  margin-top: 70px;
+  background-color: #0c0c0c94;
+}
+.adress{
+  padding-top: 30px;    
+}
+
+
+   
