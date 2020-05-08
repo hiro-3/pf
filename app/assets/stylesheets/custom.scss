@@ -1,14 +1,14 @@
-body, html{
+body,html{
  padding: 0;
  margin: 0;
- height: 100%;
+ max-height: 100%;
  background-image: image-url("stone_001.jpg");
- background-repeat: no-repeat;
+ background-repeat: repeat;
 }
 
     
 .navbar-brand img {
-  width: 20%;
+  width: 25%;
   vertical-align: bottom;
 }
 
@@ -45,45 +45,30 @@ ul,li,dl,dt,dd {
 
 .footer {
    width: 100%;
-   height: 100%;
    bottom: 0;
    position: absolute;
-   
-}
-
-.footer-nav {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   padding-top: 10px;
-}
-
-.footer nav ul {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-}
-
-.footer nav ul li {
-   margin-right: 50px;
 }
 
 .footer-navbar-brand{
     width: 10%;
-    vertical-align: bottom;
+    vertical-align: baseline;
 }
 
 .navbar-toggler {
    background-color: #e8b51a87;
 } 
 
-.card-img-overlay{
-  padding-top: 30px;
+.concepts-phote{
+  width: 100%;
+  border: outset 20px #ffff;
 }
 
 .concepts.text-md-center{
     margin-top: 100px;
     background-color: #0c0c0c94;
+}
+.container{
+  margin-bottom: 150px;
 }
 .concepts-row{
   background-color: #0c0c0c94;
@@ -96,7 +81,7 @@ ul,li,dl,dt,dd {
     max-width: 60%;
     margin-left: auto;
     margin-right: auto;
-     border: outset 20px #ffff;
+    border: outset 20px #ffff;
 }
 
 .text-white{
@@ -118,13 +103,27 @@ table {
   margin-bottom: 15px;
 }
 
-.row.accesses{
+.accesses-row{
   margin-top: 70px;
   background-color: #0c0c0c94;
 }
 .adress{
   padding-top: 30px;    
 }
+.map-row{
+  margin-top: 50px;
+}  
 
+.recruits-phote{
+  width: 100%;
+  border: outset 20px #ffff;
+}
 
-   
+.recruits{
+  padding: 40px;
+  background-color: #0c0c0c94;
+} 
+
+.recruits-row{
+  margin-top: 70px;
+}
